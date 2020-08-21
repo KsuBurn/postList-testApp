@@ -9,7 +9,7 @@ Application made with react, hooks, typescript
 
 Press the button 'Clone or download'.<br>
 Choose a repository cloning method (Use SSH or Use HTTPS) and copy the link.<br>
-Enter in the console: git clone repo_link<br>
+Enter in the console: ```git clone repo_link```<br>
 
 ### How to start
 
