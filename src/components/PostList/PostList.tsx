@@ -4,13 +4,14 @@ import {ResultPostListType} from './PostList.types';
 
 type PostsType = {
   posts: ResultPostListType[];
+  postCount: number;
 }
-const PostList: FC<PostsType> = ({posts}: PostsType) => {
+const PostList: FC<PostsType> = ({posts, postCount}: PostsType) => {
 
   return (
-    <>
+    <div>
       {
-        posts.map((item: ResultPostListType, index) => (
+        posts.slice(0, postCount).map((item: ResultPostListType, index) => (
           <div key={index}>
             <PostItem
               body={item.body}
@@ -21,7 +22,7 @@ const PostList: FC<PostsType> = ({posts}: PostsType) => {
           </div>
         ))
       }
-    </>
+    </div>
   );
 };
 

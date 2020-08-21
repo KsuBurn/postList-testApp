@@ -1,8 +1,10 @@
 import React, {FC} from 'react';
-import {PostTitle} from '../PostTitle/PostTitle';
-import {UserName} from '../UserName/UserName';
-import {NickName} from '../NickName/NickName';
-import {Post} from '../Post/Post';
+import {
+  Post,
+  UserName,
+  NickName,
+  PostTitle,
+} from '../styledComponents';
 
 type PostItemType = {
   body: string;
