@@ -1,0 +1,9 @@
+.userName {
+    display: flex;
+    align-items: flex-end;
+}
+
+.likeWrap {
+    display: flex;
+    justify-content: flex-end;
+}
